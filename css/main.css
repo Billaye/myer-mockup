@@ -13,8 +13,8 @@ header {
     top: 0;
     width: 100%;
     background-color:white;   
-    margin-bottom: 100px;
     padding:0 200px 0 200px;
+    z-index:100;
 }
 
 .alt-text-color{
