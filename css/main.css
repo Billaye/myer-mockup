@@ -1,0 +1,162 @@
+
+/*
+    Global CSS
+*/
+  
+* {    
+    line-height:1.5em;
+    overflow-x:hidden;    
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:white;   
+    margin-bottom: 100px;
+    padding:0 200px 0 200px;
+}
+
+.alt-text-color{
+    color:#e69900;
+}
+
+.align-center {
+    text-align:center;
+}
+
+section {    
+    padding-top:15em;
+}
+#initial-container {
+    position:relative;
+    overflow:hidden;
+    height:500px;
+    margin-bottom:-8%;
+}
+#leaf-top-right {
+    position:absolute;
+    right:0;        
+    top:10%;
+    width:auto;
+    height:auto; 
+    max-width: 75%;
+    max-height: 75%;
+}
+#leaf-top-left {
+    position:absolute;
+    left:0;         
+    width:auto;
+    height:auto; 
+    max-width: 75%;
+    max-height: 75%;   
+}
+
+#mosaic {
+    position:relative;
+}
+
+#mosaic-top-left {
+    position:absolute;
+    top:0;
+    left:0;   
+    padding-right:2%;
+    width:auto;
+    height:auto; 
+    max-width: 50%;
+    max-height: 50%;
+}
+#mosaic-bottom-left {
+    position:absolute;
+    left:0; 
+    bottom:0;  
+    padding-right:2%;    
+    width:auto;
+    height:auto; 
+    max-width: 50%;
+    max-height: 50%;      
+}
+
+#mosaic-right {
+    width:auto;
+    height:auto;     
+    max-width: 55%;
+    max-height: 100%;    
+    float:right;
+}
+
+@media screen and (max-width: 1300px) {
+    #messy-wardrobe {
+        width:auto;
+        height:auto;     
+        max-width: 48%;
+        max-height: 70%;    
+       
+    }
+    
+}
+
+p {    
+    font-size:1.25em;
+}
+.main-logo {
+    padding:2em;
+}
+
+.text-margin {
+    margin: 0 30%;
+}
+.text-padding {
+    padding: 5% 0 10%;
+}
+
+.img-container {
+    margin: 0 20%;
+}
+
+.header-logo {
+    max-height: 3em;
+    max-width: 4em;
+}
+
+.header-logo-right {
+    float:right;
+}
+
+.float-right {
+    float:right;  
+}
+
+.alternate-container {
+    background-color:lightpink;
+    margin-top:-140px;
+    position: relative;
+    z-index:-1;
+}
+
+.alternate-section {
+    margin: 10% 15%; 
+}
+
+.alternate-text-section {
+    margin: 7% 20%;    
+}
+
+#leaf-middle-left {
+    opacity: 0.5;
+    left:0;
+    bottom:0;
+    position: absolute;
+    width:auto;
+    height:auto; 
+    max-width: 30%;
+    max-height: 30%;
+}
+
+#flower-middle-left {
+    float:left;
+    width:auto;
+    height:auto; 
+    max-width: 25%;
+    max-height: 25%;
+}
